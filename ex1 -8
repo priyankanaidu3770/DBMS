@@ -25,4 +25,4 @@ insert into emp values(7876, 'ADAMS', 'CLERK', 7788, to_date('13-7-1987', 'dd-mm
 insert into emp values(7900, 'JAMES', 'CLERK', 7698, to_date('3-12-1981','dd-mm-yyyy'), 950, null, 30);
 insert into emp values(7934, 'MILLER', 'CLERK', 7782, to_date('23-1-1982','dd-mm-yyyy'),1300, null, 10);
 
-select * from emp WHERE hiredate between '01-jan-81' and '31-dec-81';
+select * from emp WHERE hiredate between '31-dec-80' and '31-dec-81';
